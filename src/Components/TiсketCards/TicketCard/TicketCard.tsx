@@ -1,17 +1,21 @@
 import React from 'react';
+
 import formatStops from '../../../utils/formatStops';
 import formatDate from '../../../utils/formatDate';
 import TicketsData from '../../../types/common';
+import transformPrice from '../../../utils/transformPrice';
 import firmLogo from '../../../assets/firmLogo.jpg';
 import airplane from '../../../assets/airplane.png';
+import Currency from '../../../types/currency';
 
 import styles from './TicketCard.module.scss';
 
 type Props = {
   ticket: TicketsData;
+  currency: Currency;
 };
 
-function TicketCard({ ticket }: Props) {
+function TicketCard({ ticket, currency }: Props) {
   return (
     <div className={styles.container}>
       <div className={styles.order}>
@@ -19,8 +23,7 @@ function TicketCard({ ticket }: Props) {
         <button type="button" className={styles.button}>
           Купить
           <br />
-          за
-          {ticket.price}
+          за {transformPrice(ticket.price, currency)}
         </button>
       </div>
       <div className={styles.wrapper}>

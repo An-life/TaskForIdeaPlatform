@@ -22,7 +22,7 @@ function App() {
       </h1>
       <main className={styles.wrapper}>
         <Filters onClick={currencyHandler} currency={currency} />
-        <TicketCards tickets={tickets} />
+        <TicketCards tickets={tickets} currency={currency} />
       </main>
     </div>
   );
