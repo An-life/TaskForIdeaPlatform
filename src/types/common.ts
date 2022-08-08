@@ -1,4 +1,4 @@
-type TicketData = {
+export type TicketData = {
   origin: string;
   origin_name: string;
   destination: string;
@@ -13,4 +13,8 @@ type TicketData = {
   id: string;
 };
 
-export default TicketData;
+export interface Stops {
+  [key: string]: boolean;
+}
+
+export type Currency = 'Rub' | 'Usd' | 'Eur';

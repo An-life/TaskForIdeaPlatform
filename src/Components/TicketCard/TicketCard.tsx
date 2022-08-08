@@ -1,17 +1,16 @@
 import React from 'react';
 
-import formatStops from '../../../utils/formatStops';
-import formatDate from '../../../utils/formatDate';
-import TicketsData from '../../../types/common';
-import transformPrice from '../../../utils/transformPrice';
-import firmLogo from '../../../assets/firmLogo.jpg';
-import airplane from '../../../assets/airplane.png';
-import Currency from '../../../types/currency';
+import formatStops from '../../utils/formatStops';
+import formatDate from '../../utils/formatDate';
+import { Currency, TicketData } from '../../types/common';
+import transformPrice from '../../utils/transformPrice';
+import firmLogo from '../../assets/firmLogo.jpg';
+import airplane from '../../assets/airplane.png';
 
 import styles from './TicketCard.module.scss';
 
 type Props = {
-  ticket: TicketsData;
+  ticket: TicketData;
   currency: Currency;
 };
 

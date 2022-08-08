@@ -1,5 +1,5 @@
-@import './../../../styles/variables.scss';
-@import './../../../styles/mixins.scss';
+@import './../../styles/variables.scss';
+@import './../../styles/mixins.scss';
 
 .container{
     background-color:$color-white;
@@ -32,10 +32,9 @@
         margin-top: 20px;
         font-size: 18px;
 
-
         @media (hover: hover) {
             &:hover {
-              cursor: pointer;
+              cursor: url('../../assets/pointer.png') 10 10, pointer;
               background-color: $color-light-orange;
             }
        }
@@ -94,5 +93,4 @@
         }
     }
 }
-
 }
