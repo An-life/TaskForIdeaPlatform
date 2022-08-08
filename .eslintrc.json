@@ -48,7 +48,7 @@
           }],
         "@typescript-eslint/no-unused-vars": "off",
         "no-unused-vars": "off",
-        "eol-last": ["error", "never"],
+        "eol-last": 0,
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx", ".ts"] }],
         "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
         "import/extensions": [
