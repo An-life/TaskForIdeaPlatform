@@ -1,4 +1,4 @@
-{
+{"homepage": "https://An-life.github.io/TaskForIdeaPlatform",
   "name": "TaskForIdeaPlatform",
   "version": "0.1.0",
   "private": true,
@@ -26,7 +26,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husky install",
-    "lint-fix": "eslint --fix"
+    "lint-fix": "eslint --fix",
+    "predeploy": "npm run build",	
+    "deploy": "gh-pages -d build"	
   },
   "lint-staged": {
     "**/*.{js,ts,jsx,tsx}": [
