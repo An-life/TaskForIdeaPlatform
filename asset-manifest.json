@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TaskForIdeaPlatform/static/css/main.2eb112ac.css",
+    "main.js": "/TaskForIdeaPlatform/static/js/main.afb2daf4.js",
+    "static/media/logo.png": "/TaskForIdeaPlatform/static/media/logo.cfa08a923fd082034407.png",
+    "static/media/checked.svg": "/TaskForIdeaPlatform/static/media/checked.132a38359b9994d3d89a.svg",
+    "index.html": "/TaskForIdeaPlatform/index.html",
+    "main.2eb112ac.css.map": "/TaskForIdeaPlatform/static/css/main.2eb112ac.css.map",
+    "main.afb2daf4.js.map": "/TaskForIdeaPlatform/static/js/main.afb2daf4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2eb112ac.css",
+    "static/js/main.afb2daf4.js"
+  ]
+}
