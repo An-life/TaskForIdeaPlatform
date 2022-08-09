@@ -49,7 +49,7 @@
         "@typescript-eslint/no-unused-vars": "off",
         "no-unused-vars": "off",
         "eol-last": 0,
-        "multiline": "never",
+        "multiline": "off",
         "object-curly-newline": ["error", "never"],
         "implicit-arrow-linebreak": ["error", "beside"],
         "space-in-parens": ["error", "never"],
