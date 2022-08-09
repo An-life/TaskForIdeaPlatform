@@ -51,7 +51,7 @@
         "eol-last": 0,
         "space-in-parens": ["error", "never"],
         "object-curly-newline": ["error", "never"],
-        "implicit-arrow-linebreak": ["error", "beside"],
+        "implicit-arrow-linebreak": ["error", "below"],
         "arrow-parens" : ["error", "as-needed"],
         "react/jsx-one-expression-per-line": "off",
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx", ".ts"] }],
