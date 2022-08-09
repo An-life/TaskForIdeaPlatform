@@ -12,7 +12,6 @@ import styles from './App.module.scss';
 
 function App() {
   const tickets = data.tickets.map(ticket => ({ ...ticket, id: v1() }));
-
   const [currency, setCurrency] = useState<Currency>('Rub');
   const [filters, setFilters] = useState<Stops>({
     allStops: false,
