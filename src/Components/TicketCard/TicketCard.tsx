@@ -18,10 +18,10 @@ function TicketCard({ ticket, currency }: Props) {
   return (
     <div className={styles.container}>
       <div className={styles.order}>
-        <img src={firmLogo} alt="Logo of company" className={styles.logo} />
+        <img src={firmLogo} alt="Logo of company" className={styles.logo}/>
         <button type="button" className={styles.button}>
           Купить
-          <br />
+          <br/>
           за {transformPrice(ticket.price, currency)}
         </button>
       </div>
@@ -31,7 +31,7 @@ function TicketCard({ ticket, currency }: Props) {
           <div className={styles.stopsWrapper}>
             <div className={styles.stops}>{formatStops(ticket.stops)}</div>
             <div>
-              <img src={airplane} alt="airplane icon" className={styles.airplane} />
+              <img src={airplane} alt="airplane icon" className={styles.airplane}/>
             </div>
           </div>
           <div className={styles.time}>{ticket.arrival_time}</div>

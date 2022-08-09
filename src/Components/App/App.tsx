@@ -38,7 +38,7 @@ function App() {
   return (
     <div className={styles.container}>
       <h1>
-        <img src={logo} alt="Logo" className={styles.logo} />
+        <img src={logo} alt="Logo" className={styles.logo}/>
       </h1>
       <main className={styles.wrapper}>
         <Filters
@@ -49,7 +49,7 @@ function App() {
         />
         <div>
           {filteredTickets.map(ticket => (
-            <TicketCard ticket={ticket} key={ticket.id} currency={currency} />
+            <TicketCard ticket={ticket} key={ticket.id} currency={currency}/>
           ))}
         </div>
       </main>

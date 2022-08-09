@@ -9,7 +9,7 @@ function filterTickets(filters: Stops, tickets: TicketData[]): Array<TicketData>
     checkedTickets = tickets;
     return checkedTickets;
   }
-  for (let i = 1; i < 5; ) {
+  for (let i = 1; i < 5;) {
     const filteredByStopsTickets = tickets.filter(ticket => ticket.stops === i - 1);
     if (filterValues[i]) {
       checkedTickets.push(...filteredByStopsTickets);
