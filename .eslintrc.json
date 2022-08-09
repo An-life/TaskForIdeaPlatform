@@ -50,6 +50,7 @@
         "no-unused-vars": "off",
         "eol-last": 0,
         "arrow-parens" : ["error", "as-needed"],
+        "react/jsx-one-expression-per-line": "off",
         "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx", ".ts"] }],
         "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
         "import/extensions": [
