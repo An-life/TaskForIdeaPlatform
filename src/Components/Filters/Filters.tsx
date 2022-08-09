@@ -15,11 +15,17 @@ type Props = {
 
 function Filters({ onClick, currency, setFilters, filters }: Props) {
   const stopsInputHandler = (e: ChangeEvent<HTMLInputElement>, name: string) => {
-    setFilters({ ...filters, [name]: e.currentTarget.checked });
+    setFilters({
+      ...filters,
+      [name]: e.currentTarget.checked,
+    });
   };
 
   const filterClickHandler = (name: string) =>
-    setFilters({ ...defaultFilters, [name]: true });
+    setFilters({
+      ...defaultFilters,
+      [name]: true,
+    });
 
   return (
     <div className={styles.container}>
